@@ -15,13 +15,13 @@ section {
 	width: 100%;
 	height: 200px;
 	position: relative;
-	overflow: auto;align-items: left;
+	overflow: auto;
 	background-color: #e2df73;	
-		border: 1px solid black;
-		margin: 10px
+	border: 1px solid black;
+
 }
 .row-width {
-	width: 100%
+	width: 100%;
 }
 h3 { 
 	position: absolute;
@@ -36,7 +36,7 @@ p {
 	padding: 30px 8px 8px 8px;
 }
 #chicken {
-	background-color: #f46842;
+	background-color: #f46842;	
 }
 #beef {
 	background-color: #516b5b;
@@ -49,6 +49,7 @@ p {
 	.col-lg-4 {
 		float: left;
 		width: 33.33%;
+		
 	}
 		
 }
@@ -56,6 +57,10 @@ p {
 	.col-md-6 {
 		float: left;
 		width: 50%;
+	
+	}
+	.sushi-span {
+		width: 100%
 	}
 		
 }
@@ -63,6 +68,7 @@ p {
 	.col-sm-12 {
 		float: left;
 		width: 100%;
+		
 	}
 		
 }
