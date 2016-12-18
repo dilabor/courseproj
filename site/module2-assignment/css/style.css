@@ -52,10 +52,10 @@ p {
 	}
 		
 }
-@media (min-width: 768) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 991px) {
 	.col-md-6 {
 		float: left;
-		width: 45%;
+		width: 50%;
 	}
 		
 }
