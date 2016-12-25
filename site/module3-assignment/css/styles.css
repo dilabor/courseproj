@@ -2,7 +2,7 @@ body {
   font-size: 16px;
   color: #fff;
   background-color: #61122f;
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Arial", Georgia, Serif;
 }
 
 /** HEADER **/
@@ -16,8 +16,7 @@ body {
   padding-top: 25px;
 }
 
-.navbar-brand h1 { /* Restaurant name */
-  font-family: 'Lora', serif;
+.navbar-brand h1 {
   color: #557c3e;
   font-size: 1.5em;
   text-transform: uppercase;
@@ -30,21 +29,13 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-.navbar-brand p { /* Kosher cert */
-  color: #000;
-  text-transform: uppercase;
-  margin-top: 15px;
-}
-.navbar-brand p span { /* Star-K */
-  vertical-align: middle;
-}
 
 #nav-list {
   margin-top: 10px;
 }
 #nav-list a {
   color: #951C49;
-  text-align: center;
+
 }
 #nav-list a:hover {
   background: #E7E7E7;
@@ -59,10 +50,7 @@ body {
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
 
-
-/* HOME PAGE */
 #page-heading{
   font-size: 2em;
   margin-bottom: 30px;
@@ -73,9 +61,9 @@ body {
   border: 1px solid black;
   position: relative;
   color: black;
-  padding: 25px;
+  padding: 30px;
   padding-top: 60px;
-  margin-bottom: 50px;
+  margin-bottom: 60px;
 }
 
 #chicken{
@@ -83,13 +71,12 @@ body {
   margin-bottom: 10px;
   font-size: 1.5em; 
   font-style: bold;
-  text-align: center;
 }
-/* END HOME PAGE */
 
-#collapsable-nav a { /* Collapsed nav menu text */
+#collapsable-nav a {
   font-size: 1.2em;
   background-color: #CAFF33;
   border: 1px solid black;
+}
 
 
